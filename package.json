@@ -1,0 +1,42 @@
+{
+  "name": "happypet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.1",
+    "@types/react-native-vector-icons": "^6.4.10",
+    "jetify": "^1.0.2",
+    "react": "17.0.2",
+    "react-native": "0.68.1",
+    "react-native-gesture-handler": "^2.4.1",
+    "react-native-iphone-x-helper": "^1.3.1",
+    "react-native-svg": "^12.3.0",
+    "react-native-vector-icons": "^9.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/runtime": "^7.17.9",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^18.0.5",
+    "@types/react-native": "^0.67.4",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.13.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.70.1",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
